@@ -76,7 +76,7 @@ public class AppConfiguration {
         return IntegrationFlows
                 .from(Files.inboundAdapter(new File(SOURCE_DIR))
                                 .patternFilter("*.txt"),
-                        e -> e.poller(Pollers.fixedDelay(10000)
+                        e -> e.poller(Pollers.fixedDelay(3000)
                                 .transactional(transactionManager())
                                 .transactionSynchronizationFactory(transactionSynchronizationFactory())
                                 .get()))
