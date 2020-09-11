@@ -1,0 +1,14 @@
+{
+	"id": "f3",
+	"type": "pickup",
+	"items": [
+			{
+				"name": "book f3",
+				"status": "new"
+			},
+			{
+				"name": "pen f3",
+				"status": "new"
+			}
+		]
+}

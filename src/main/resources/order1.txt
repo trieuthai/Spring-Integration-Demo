@@ -1,0 +1,14 @@
+{
+	"id": "f1",
+	"type": "delivery",
+	"items": [
+			{
+				"name": "book f1",
+				"status": "new"
+			},
+			{
+				"name": "pen f1",
+				"status": "new"
+			}
+		]
+}
